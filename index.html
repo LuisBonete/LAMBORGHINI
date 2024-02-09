@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
     <title>Lamborghini</title>
+    <link rel="icon" type="https://assets.stickpng.com/images/580b57fcd9996e24bc43c48c.png">
     <style>
         /* Estilos gerais */
         body {
@@ -12,11 +14,22 @@
             padding: 0;
         }
 
+        .titulo {
+            font-family: 'Protest Riot', sans-serif;
+        }
+
         header {
-            background-color:rgb(125, 125, 125);
+            background-color: rgb(255, 238, 0); /* Cor cinza */
             text-align: center;
             padding: 20px;
-            
+            display: flex; /* Para alinhar a imagem e o título lado a lado */
+            justify-content: center; /* Para alinhar horizontalmente */
+            align-items: center; /* Para alinhar verticalmente */
+        }
+
+        header img {
+            margin-right: 10px; /* Adicionando um espaço entre a imagem e o título */
+            width: 150px;
         }
 
         nav ul {
@@ -31,78 +44,107 @@
             margin: 0 10px;
         }
 
-        nav ul li a {https://banner2.cleanpng.com/20180805/hha/kisspng-lamborghini-gallardo-car-lamborghini-marzal-exhaus-lamborghini-3d-badge-on-black-adult-pull-over-ho-5b670f134092d0.1409286115334807232645.jpg
+        nav ul li a {
             text-decoration: none;
             color: #333;
+            font-family: 'Protest Riot', sans-serif;
+            font-size: 25px;
         }
 
-        /* Estilos específicos */
         section {
             padding: 20px;
         }
 
         section h2 {
             color: #333;
+            font-family: 'Protest Riot', sans-serif;
         }
 
         footer {
-            .lamborghini{
-            width: 200px;
-            padding:20
-            
-        }
-                    color: #fff;
             text-align: center;
             padding: 20px 0;
         }
-        section img{
-            width: 600px;
+
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
         }
-        
+
+        .gallery-item {
+            text-align: center;
+            width: calc(33.33% - 20px); /* Para garantir que as imagens tenham a mesma largura e uma margem entre elas */
+            margin-bottom: 20px;
+        }
+
+        .gallery-item img {
+            width: 600px;
+            height: 400px;
+        }
+
+        .oba {
+            width: 550px;
+            font-family: 'Protest Riot', sans-serif;
+            font size: 20px;;
+        }
     </style>
 </head>
 <body>
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lamborghini.com</title>
-        <link rel="stylesheet" href="lamborguini.css">
-    </head>
-    <body>
-        <header>
-            <h1>LAMBORGHINI</h1> 
-            <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c48c.png" alt="">
-           
-        </header>
-        <nav>
-            <ul>
-                <li><a href="#history">História</a></li>
-                <li><a href="#models">Modelos</a></li>
-                <li><a href="#gallery">Galeria</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
-        <section id="history">
-            <h2>História</h2>
-            <p>A Lamborghini é uma fabricante italiana de automóveis de luxo, fundada em 1963 por Ferruccio Lamborghini.</p>
-        </section>
-        <section id="models">
-            <h2>Modelos</h2>
-            <p>Alguns modelos famosos da Lamborghini incluem o Aventador, Huracán, e Urus.</p>
-        </section>
-        <section id="gallery">
-            <h2>Galeria</h2>
-            <img src="https://i0.wp.com/quatrorodas.abril.com.br/wp-content/uploads/2021/07/LAMBORGHINI-AVENTADOR-ULTIMAE-2.jpg?resize&quality=70&strip=info&w=720&ssl=1" alt="Lamborghini Aventador">
-            <img src="https://cdn.motor1.com/images/mgl/kNREB/s3/lamborghini-huracan-sto.jpg" alt="Lamborghini Huracán">
-            <img src="https://carrosbemmontados.com.br/wp-content/uploads/2023/10/Lamborghini-Urus-VENATUS-EVO-1.png" alt="Lamborghini Urus">
-        </section>
-        <footer id="contact">
-            <h2>Contato</h2>
-            <p>Entre em contato conosco para mais informações:</p>
-            <p>Endereço: Lamborghini Headquarters, Sant'Agata Bolognese, Itália</p>
-            <p>Email: info@lamborghini.com</p>
-        </footer>
-    </body>
-    </html>
+    <header>
+        <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c48c.png" alt="Logo da Lamborghini"> <!-- Adicionando a imagem do logo -->
+        <h1 class="titulo">LAMBORGHINI</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#history">História</a></li>
+            <li><a href="#models">Modelos</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="history">
+        <h2>O que é a LAMBORGHINI</h2>
+        <p><b><ul> Lamborghini é uma fabricante italiana de automóveis desportivos de luxo e de alto desempenho criada originalmente para competir com a Ferrari com sede 
+            no município de Sant'Agata Bolognese. A companhia, que foi fundada em 1963 por Ferruccio Lamborghini (1916–1993) como uma filial da sua bem-sucedida 
+            fábrica de tratores Lamborghini Trattori S.p.A., atualmente o grupo Volkswagen AG, a tem como subsidiaria da divisão Audi AG, onde intercambia 
+            tecnologias entre Audi R8 e os modelos mais recentes da Lamborghini.</ul></b></p>
+    </section>
+
+    <section id="models">
+        <h2>História</h2>
+        <p><ol><b> Lamborghini antes de fazer os carros, ele fazia tratores com motores de tanques da 2ª Guerra Mundial. Conta a história, que uma vez, com problema na embreagem de sua Ferrari, Ferruccio foi até a fábrica e falou diretamente com o engenheiro chefe, que nesta ocasião era nada mais nada menos que Enzo Ferrari, O Comendador, que ao ver o problema de Ferrucio teria dito: “podes saber conduzir os teus tratores, mas não sabes conduzir uma Ferrari“. Foi a partir deste momento que Lamborghini decidiu fabricar carros. Instalou-se em Sant’Agata Bolognese e contratou uma série de engenheiros de renome para construir os seus carros, como foi o caso de Bizzarrini, Dallara e Stanzani.
+
+
+            Trator Lamborghini 573-60 N.
+            Em 1964 foi produzido o primeiro carro Lamborghini, o modelo 350 GT, que combinava um chassi desenhado por Dallara com um motor V12 concebido por Bizzarrini. O carro fez bastante sucesso e foi produzido até 1968, depois de ter sido renovado em 1966.[4] Ainda em 1966, foi lançado o mítico Lamborghini Miura, desenhado por Luigi Bertone e dotado também de um potente motor V12. Este modelo também foi um tremendo sucesso de vendas, sendo produzido até 1973. Ferrucio era grande apreciador de touradas, por isso muitos dos seus carros tem nomes de touros famosos.
+
+            Entretanto, em 1968 tinha sido apresentado o Lamborghini Islero, destinado a substituir o 400 GT, que havia surgido como desenvolvimento do 350GT. Também em 1968 apareceu o Lamborghini Espada, o primeiro carro da marca com capacidade para quatro pessoas. Dois anos depois, em 1970, o Islero foi substituído pelo Lamborghini Jarama.
+
+        </b></ol></p>
+    </section>
+
+    <section id="gallery">
+        <h2>Modelos</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://carrosbemmontados.com.br/wp-content/uploads/2023/12/lamborghini-veneno-6.jpg" alt="Lamborghini Aventador">
+                <p class="oba">Lamborghini Aventador</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://quatrorodas.abril.com.br/wp-content/uploads/2023/03/Lamborghini-Revuelto-2023-10-e1688655452805.jpg?quality=70&strip=info&resize=1200,800" alt="Lamborghini Huracán">
+                <p class="oba">Lamborghini Huracán</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://cdn.motor1.com/images/mgl/OW1xA/s3/lamborghini-urus.jpg" alt="Lamborghini Urus">
+                <p class="oba">Lamborghini Urus</p>
+            </div>
+        </div>
+    </section>
+
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+
+</body>
+</html>
+       
